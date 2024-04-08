@@ -1,0 +1,16 @@
+#
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+picon &
+
+dunst &
+
+feh --bg-fill ~/.themes/workspace/uespi.webp &
+
+tint2 &
+
+(sleep 10; volumeicon) &
+
+nm-applet &
+
+xrandr --output Virtual1 --mode 1920x1080 &
