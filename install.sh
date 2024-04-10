@@ -52,8 +52,8 @@ apt install -y fonts-firacode fonts-liberation2 fonts-ubuntu papirus-icon-theme 
 apt install -y openbox dunst dbus-x11 hsetroot i3lock libnotify-bin lximage-qt menu picom  qt5-style-plugins rofi scrot tint2 xfce4-power-manager 
 
 # LXDM login manager
-apt install -y lxdm
-systemctl enable lxdm
+apt install -y lightdm
+# systemctl enable lxdm
 
 # Configuration Setup
 mkdir -p ~/.config/openbox
